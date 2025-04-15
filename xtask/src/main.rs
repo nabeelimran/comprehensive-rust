@@ -19,7 +19,7 @@
 //! `cargo xtask install-tools` and the logic defined here will install
 //! the tools.
 
-use anyhow::{anyhow, Ok, Result};
+use anyhow::{Ok, Result, anyhow};
 use clap::Parser;
 use std::env;
 use std::process::Command;
